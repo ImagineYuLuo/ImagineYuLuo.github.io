@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="assets/js/typewrite.js"></script>
     <title>YuLuo</title>
     <link rel="icon" type="image/x-icon" href="assets/images/icon.png">
 </head>
+
 <body>
     <header class="header">
-        <div id="animated_div"><a class="logo">YuLuo</a></div>
-        
+        <div><a class="logo">YuLuo</a></div>
         <nav class="navbar">
             <a href="#">Home</a>
             <a href="#">About</a>
@@ -20,15 +21,58 @@
         </nav>
     </header>
 
-    <div class="wrapper">
-        <form action="">
-            <h1>Introduction</h1><br />
-            <p class="introduction_content">
-                <a class="typewrite" data-period="2000" data-type='[ "Hello, I am YuLuo.", "I am a student who bad with coding." ]'>
-                    <span class="wrap"></span>
+    <div class="wrapper_Introduction">
+        <h1>Introduction</h1><br />
+        <p class="introduction_content">
+            <a class="typewrite" data-period="2000"
+                data-type='[ "Hello, I am YuLuo.", "I am a student who bad with coding." ]'>
+                <span class="wrap"></span>
+            </a>
+        </p><br /><br /><br />
+        <div class="wrapper">
+            <div class="icon instagram">
+                <div class="tooltip">
+                    Instagram
+                </div>
+                <a href="https://www.instagram.com/c.0415/">
+                    <span><i class="fab fa-instagram"></i></span>
                 </a>
-            </p>
-        </form><br />
+            </div>
+            <div class="icon github">
+                <div class="tooltip">
+                    Github
+                </div>
+
+                <a href="https://github.com/ImagineYuLuo">
+                    <span><i class="fab fa-github"></i></span>
+                </a>
+
+            </div>
+            <div class="icon discord">
+                <div class="tooltip">
+                    Discord
+                </div>
+                <a href="https://discord.gg/yNXzfkWmTr">
+                    <span><i class="fab fa-discord"></i></span>
+                </a>
+
+            </div>
+            <div class="icon steam">
+                <div class="tooltip">
+                    Steam
+                </div>
+                <a href="https://steamcommunity.com/profiles/76561198834412173">
+                    <span><i class="fab fa-steam"></i></span>
+                </a>
+            </div>
+            <div class="icon share">
+                <div class="tooltip">
+                    Share
+                </div>
+                <span><i class="fa-solid fa-share-nodes"></i></span>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
